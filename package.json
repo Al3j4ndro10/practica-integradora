@@ -8,11 +8,7 @@
     "dev": "node server.js",
     "test": "jest" 
   },
-  "keywords": [
-    "inventario",
-    "ventas",
-    "gestion"
-  ],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
 }
