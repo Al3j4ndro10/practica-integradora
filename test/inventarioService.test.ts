@@ -1,7 +1,5 @@
-function calcularStock(stockInicial, entradas, salidas) {
-  return stockInicial + entradas - salidas;
-}
+const { calcularStock } = require('../src/services/inventarioService');
 
-module.exports = {
-  calcularStock
-};
+test('calcularStock retorna el stock correcto', () => {
+  expect(calcularStock(10, 5, 3)).toBe(12);
+});
